@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://kit.fontawesome.com/c9b8092528.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div id="header">
+       <div class="container">
+            <nav>
+                <h1>Port<span>folio.</span></h1>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+               
+                <h1>Hi, I'm<br><span>Samriti</span></h1>
+            </div>
+       </div>
+</div>
+
+<!----------------about----------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="WhatsApp Image 2024-07-10 at 15.06.07.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <br>
+                <p>I'm a 3rd-year Computer Science major student at NIT Silchar, skilled in C, C++, HTML, and CSS. My interests lie in machine learning and deep learning, with a foundational understanding of Python. Committed to exploring these fields through practical projects, I aim to contribute innovatively to the realm of technology while continuing to expand my knowledge and expertise.</p>   
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('leadership')">Leadership</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>C/C++</span><br>Data Structures and Algorithms</li>
+                        <li><span>HTML and CSS</span><br>Developing the website</li>
+                        <li><span>Machine Learning</span><br>Data analysis</li>
+                        <li><span>UI\UX</span><br>Designing web app interface</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022-2026(currently)</span><br>B.Tech in CSE (NIT Silchar); CGPA:8.8</li>
+                        <li><span>2020-2022</span><br>Class 11th & 12th (Police DAV Public School, Ambala City)<br>Percentage:96.2% </li>
+                        <li><span>2019-2020</span><br>Class 10th(Police DAV Public School, Ambala City)<br>Percentage:96.2%</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="leadership">
+                    <ul>
+                        <li><span>Digital and Fine Arts Club Head</span><br>Illuminits (Literary, Publications and Fine Arts Society), NIT Silchar</li>
+                        <li><span>Executive Member</span><br>Computer Science Society, NIT Silchar</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--------------------portfolio------------------>
+<div id="portfolio">
+    <div id="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png">
+                <div class="layer">
+                    <h3>
+                        GoRide
+                    </h3>
+                    <p>ML Model Developer,Backened Developer<br><br>May 2024 - Ongoing<br>
+                        • An advanced Cab booking platform incorporating Artificial Price Surge Detection using machine learning,
+                        achieving a user-friendly interface and efficient booking process. .
+                        • Developed a machine learning model for detecting Anomalous Price Surge created by cab drivers, achieving
+                        96.2% accuracy using Random Forest classifier .
+                        
+                    </p>
+                         <a href="https://github.com/Bhawna33/GoRide_ml_model.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png">
+                <div class="layer">
+                    <h3>
+                        Portfolio Website
+                    </h3>
+                    <p>HTML and CSS<br><br>A website made to showcase the portfolio of the person. Along with containing the feature of downloading the CV of the owner and contacting the person through message.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png">
+                <div class="layer">
+                    <h3>
+                        Real Estate Price Prediction
+                    </h3>
+                    <p>ML Model Developer, HTML and CSS<br><br>
+                        • This is website made using HTML, CSS and Javascript to predict the real estate prices.
+                       <br>• The model for prediction is made using machine learning concepts and data analysis.</p>
+                     <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<!----------------------------contact------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <br>
+                <p><i class="fas fa-paper-plane"></i>samriti435@gmail.com</p>
+                <br>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/samriti_geer/#"><i class="fab fa-instagram"></i></a>
+                    <a href="www.linkedin.com/in/samriti-geer-5a20ab24b
+
+                    "><i class="fab fa-linkedin"></i></a>
+                </div>
+               <a href="resume (3).pdf" download class="btn btn2">Download CV</a> 
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>             
+                </form>
+            </div>
+        </div>  
+    </div>
+    <div class="copyright">
+        <p>copyright @ samriti.</p>
+    </div>
+</div>
+
+<script>
+  
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+function opentab(tabname){
+    for(tablink of  tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");  
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+</script>
+
+</body>
+</html>
